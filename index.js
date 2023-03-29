@@ -74,7 +74,7 @@ function init() {
         console.log(data);
         const readMEGen = generateMarkdown({...data});
         console.log(readMEGen);
-        writeToFile("README.md",readMEGen);
+        writeToFile("NewREADME.md",readMEGen);
     });
 }
 
